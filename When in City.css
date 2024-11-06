@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logodiv {
+    width: 15%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 70px;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.HEADER {
+    color: white;
+    display: flex;
+    width: 40%;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.Group {
+    color: white;
+    font-size: 50px;
+}
+
+.People {
+    color: white;
+    font-size: 35px;
+    padding-top: 25px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    /* border: 1px solid red; */
+}
+
+.poster {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.posterimg {
+    width: 65%;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.p1 {
+    font-size: 26px;
+}
+
+.p2 {
+    font-size: 26px;
+}
+
+.p3 {
+    font-size: 26px;
+}
+
+.main3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.img {
+    width: 300px;
+}
+
+.hr1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    /* background-color: grey; */
+}
+
+.hr {
+    background-color: rgb(187, 185, 185);
+    height: 1px;
+    width: 60%;
+}
+
+.poster2 {
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.posterimg2 {
+    width: 65%;
+}
+
+.p {
+    cursor: pointer;
+}
+
+
+.slide {
+    display: flex;
+    justify-content: center;
+}
+
+.slide1 {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    /* border: 2px solid red; */
+    width: 82%;
+    scrollbar-width: none;
+
+}
+
+.poster3 {
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.posterimg3 {
+    width: 65%;
+}
+
+
+.row1 {
+    display: flex;
+    gap: 5px;
+}
+
+.row2 {
+    display: flex;
+    gap: 5px;
+}
+
+.row3 {
+    display: flex;
+    gap: 5px;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+}
+
+.r1img {
+    height: 350px;
+    width: 300px;
+}
+
+.r2img {
+    height: 350px;
+    width: 300px;
+}
+
+.r3img {
+    height: 350px;
+    width: 300px;
+}
+
+.rimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    /* opacity: 0.8; */
+}
+
+.A {
+    display: flex;
+    justify-content: center;
+}
+
+.READMOREDIV {
+    display: flex;
+    justify-content: center;
+}
+
+.READMORE {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.READMORE:hover {
+    border-color: black;
+    opacity: 0.7;
+}
+
+
+.required {
+    color: grey;
+}
+
+.Emaildiv {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.Namediv {
+    display: flex;
+    flex-direction: column;
+}
+
+.Emaildiv1 {
+    width: 87%;
+    display: flex;
+    justify-content: center;
+}
+
+.Emaildiv2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Namediv1 {
+    width: 84%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.Namediv2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Name {
+    height: 35px;
+}
+
+.Email {
+    height: 35px;
+}
+
+
+.SUBSCRIBEDIV {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.SUBSCRIBE {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.SUBSCRIBE:hover {
+    border-color: black;
+    opacity: 0.7;
+}
+
+.last {
+    background-color: #333;
+}
+
+.last1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#last1 {
+    padding-right: 8px;
+    padding-top: 40px;
+}
+
+.f {
+    height: 35px;
+    width: 35px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.last2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.last3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.last4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.Copyright {
+    color: rgba(245, 245, 245, 0.726);
+}
+
+.UPCOMINGTRIPS {
+    /* background-color: black            ; */
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.UPCOMINGTRIPS {
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    cursor: pointer;
+}
+
+.UPCOMINGTRIPS:hover {
+    background-color: white;
+    color: black;
+}
+
+.UPCOMINGTRIPSBTN {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
